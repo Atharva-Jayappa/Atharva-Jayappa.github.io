@@ -33,7 +33,7 @@
   .ds-dot{flex:1;border-bottom:1.5px dotted rgba(20,16,9,.18);transform:translateY(-4px)}
   .ds-v{white-space:nowrap;color:#141009}
   .ds-v.on{color:#0e8f83}
-  .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:30px 24px;align-items:start}
+  .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:30px 24px;grid-auto-rows:1fr;align-items:stretch}
   .dcard{position:relative;display:flex;text-decoration:none;color:#141009;background:#f3ecda;border:1.7px solid #141009;background-image:repeating-linear-gradient(45deg,rgba(20,16,9,.022) 0 1px,transparent 1px 6px);transform:rotate(var(--r,0deg)) translateY(var(--y,0px));transition:transform .16s ease}
   .dcard:hover{transform:rotate(0deg) translateY(-3px);z-index:5}
   .dstub{width:92px;flex:none;padding:14px 6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center;border-right:2px dashed rgba(20,16,9,.5)}
@@ -76,7 +76,7 @@
   <section id="top" style="text-align: center; padding: 34px 40px 6px;">
     <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(14, 143, 131); margin-bottom: 12px;">✦ Portfolio · Los Angeles · 34.02°N ✦</div>
     <h1 style="font-family: Unbounded, sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(50px, 10vw, 150px); line-height: 0.86; letter-spacing: -0.02em; margin: 0px; color: rgb(23, 19, 12);">Atharva<br><span style="color: rgb(14, 143, 131);">Jayappa</span></h1>
-    <p style="font-family: &quot;Space Mono&quot;, monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(90, 81, 64); margin: 16px 0px 0px;">ML / AI Engineer · Researcher · USC</p>
+    <p style="font-family: &quot;Space Mono&quot;, monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(90, 81, 64); margin: 16px 0px 0px;">AI Engineer · Researcher · USC</p>
     <p style="font-size: 22px; line-height: 1.5; color: rgb(55, 48, 31); max-width: 47ch; margin: 14px auto 0px;">I build Agentic LLM systems & guardrails and research inference efficiency, making large language models faster, cheaper, and easier to trust.</p>
   </section>
 
@@ -97,7 +97,7 @@
       <div style="position: absolute; z-index: 3; width: 150%; height: 44%; transform: rotate(-20deg); border-radius: 50%; border: 2px solid rgba(207, 154, 44, 0.55); mask: linear-gradient(transparent 0px, transparent 49%, rgb(0, 0, 0) 51%, rgb(0, 0, 0) 100%);"></div>
       
       <div style="position: absolute; z-index: 4; left: 7%; top: 71%; width: 13px; height: 13px; border-radius: 50%; background: rgb(207, 154, 44); box-shadow: rgba(207, 154, 44, 0.18) 0px 0px 0px 4px;"></div>
-      <div style="position: absolute; z-index: 4; bottom: -30px; font-family: &quot;Space Mono&quot;, monospace; font-size: 10.5px; letter-spacing: 0.28em; text-transform: uppercase; color: rgb(138, 125, 99);">Body AJ-01 · ringed</div>
+      <div style="position: absolute; z-index: 4; bottom: -30px; font-family: &quot;Space Mono&quot;, monospace; font-size: 10.5px; letter-spacing: 0.28em; text-transform: uppercase; color: rgb(138, 125, 99);">Body AJ-01 · Ringed</div>
     </div>
   </section>
 
@@ -107,7 +107,7 @@
     <div class="ds-row"><span class="ds-k">Status</span><span class="ds-dot"></span><span class="ds-v on">● Open · Summer '27</span></div>
     <div class="ds-row"><span class="ds-k">Base</span><span class="ds-dot"></span><span class="ds-v">Los Angeles · USC</span></div>
     <div class="ds-row"><span class="ds-k">Focus</span><span class="ds-dot"></span><span class="ds-v">Inference · Agents · Retrieval</span></div>
-    <div class="ds-row"><span class="ds-k">Stack</span><span class="ds-dot"></span><span class="ds-v">PyTorch · HF · Neo4j · MCP</span></div>
+    <div class="ds-row"><span class="ds-k">Stack</span><span class="ds-dot"></span><span class="ds-v">PyTorch · HuggingFace · Neo4j · MCP</span></div>
   </div>
 
   <div style="max-width: 1200px; margin: 0px auto; padding: 0px 40px;">
@@ -115,12 +115,12 @@
   <section id="work" style="padding: 74px 0px 30px;">
     <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px;">
       <h2 style="font-family: Unbounded, sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(26px, 4.4vw, 50px); letter-spacing: -0.01em; line-height: 1; margin: 0px;">Selected Work</h2>
-      <span style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); margin-left: auto; letter-spacing: 0.08em;">04 · research + engineering</span>
+      <span style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); margin-left: auto; letter-spacing: 0.08em;">04 · Research + Engineering</span>
     </div>
     <div class="dgrid">
       <a href="#" class="dcard" style="--r:-1.5deg"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#0e8f83">01</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-01 ]</span><span class="dstamp">2025 · Under review</span></div><h3 class="dttl">Syntax-Aware Speculative Decoding</h3><p class="ddesc">Training-free framework that audits and suppresses unprofitable draft halts — +8.9% tokens/sec and 87% fewer halts on HumanEval-X C++.</p><div class="dtags">PyTorch · Tree-sitter · HuggingFace</div></div></a>
       <a href="#" class="dcard" style="--r:1.2deg;--y:9px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#cf9a2c">02</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-02 ]</span><span class="dstamp">2025</span></div><h3 class="dttl">Hybrid Graph-RAG Retrieval</h3><p class="ddesc">Conversational nutrition planner fusing symbolic Cypher traversal over a Neo4j graph with GraphSAGE embeddings for allergen-aware suggestions.</p><div class="dtags">Neo4j · Cypher · GraphSAGE</div></div></a>
-      <a href="https://github.com/Atharva-Jayappa/blast-scope" target="_blank" rel="noopener" class="dcard" style="--r:-0.9deg;--y:-4px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#cf9a2c">03</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-03 ]</span><span class="dstamp">MCP · PyPI</span></div><h3 class="dttl">BlastScope</h3><p class="ddesc">An MCP server that scores the real blast radius of a destructive shell command before it runs — probing files, Git, Docker and SQL directly instead of relying on blocklists. Published on the official MCP registry and PyPI; install with <code>uvx blast-scope</code>.</p><div class="dtags">Python · MCP · uvx</div></div></a>
+      <a href="https://github.com/Atharva-Jayappa/blast-scope" target="_blank" rel="noopener" class="dcard" style="--r:-0.9deg;--y:-4px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#cf9a2c">03</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-03 ]</span><span class="dstamp">MCP Registry · PyPI</span></div><h3 class="dttl">BlastScope</h3><p class="ddesc">An MCP server that scores the real blast radius of a destructive shell command before it runs — probing files, Git, Docker and SQL directly instead of relying on blocklists.</p><div class="dtags">Python · MCP · uvx</div></div></a>
       <a href="#" class="dcard" style="--r:1.4deg;--y:7px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#0e8f83">04</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-04 ]</span><span class="dstamp">2024 · NewronAI</span></div><h3 class="dttl">Agentic Document Intelligence</h3><p class="ddesc">Multi-agent classification, summarization and custom-NER pipeline on GCP powering an LLM knowledge base for large-scale document analysis.</p><div class="dtags">FastAPI · Vertex AI · GCP</div></div></a>
     </div>
   </section>
