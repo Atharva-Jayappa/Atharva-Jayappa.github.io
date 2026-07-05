@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ece4d1">
-<title>Atharva Jayappa — ML / AI Engineer &amp; Researcher</title>
-<meta name="description" content="Atharva Jayappa — ML / AI engineer and researcher building agentic LLM systems and studying inference efficiency. MS Computer Science, USC.">
+<title>Atharva Jayappa — AI Engineer &amp; Researcher</title>
+<meta name="description" content="Atharva Jayappa — AI engineer and researcher building agentic LLM systems and studying inference efficiency. MS Computer Science, USC.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%277%27%20fill%3D%27%231a1712%27/%3E%3Ctext%20x%3D%2716%27%20y%3D%2723%27%20font-size%3D%2715%27%20font-weight%3D%27800%27%20text-anchor%3D%27middle%27%20fill%3D%27%23cf9a2c%27%20font-family%3D%27Georgia%2Cserif%27%3EAJ%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://atharva-jayappa.github.io/">
@@ -20,7 +20,40 @@
 <meta name="twitter:image" content="https://atharva-jayappa.github.io/og-cover.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Space+Mono:wght@400;700&family=Unbounded:wght@500;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Martian+Mono:wght@400;500&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Unbounded:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  #dossier-spec{max-width:780px;margin:22px auto 6px;border:2px solid #141009;padding:15px 20px 13px;position:relative;font-family:'Michroma',sans-serif;background:#f4efe1}
+  #dossier-spec::before,#dossier-spec::after{content:"";position:absolute;width:11px;height:11px;border:2px solid #0e8f83}
+  #dossier-spec::before{top:-2px;left:-2px;border-right:0;border-bottom:0}
+  #dossier-spec::after{bottom:-2px;right:-2px;border-left:0;border-top:0}
+  .ds-holes{display:flex;gap:9px;margin-bottom:12px}
+  .ds-holes i{width:8px;height:8px;border-radius:50%;background:#ece4d1;border:1.5px solid #141009}
+  .ds-row{display:flex;align-items:baseline;gap:10px;padding:4px 0;font-size:12px}
+  .ds-k{font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:#8a7d63;flex:none}
+  .ds-dot{flex:1;border-bottom:1.5px dotted rgba(20,16,9,.18);transform:translateY(-4px)}
+  .ds-v{white-space:nowrap;color:#141009}
+  .ds-v.on{color:#0e8f83}
+  .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:30px 24px;align-items:start}
+  .dcard{position:relative;display:flex;text-decoration:none;color:#141009;background:#f3ecda;border:1.7px solid #141009;background-image:repeating-linear-gradient(45deg,rgba(20,16,9,.022) 0 1px,transparent 1px 6px);transform:rotate(var(--r,0deg)) translateY(var(--y,0px));transition:transform .16s ease}
+  .dcard:hover{transform:rotate(0deg) translateY(-3px);z-index:5}
+  .dstub{width:92px;flex:none;padding:14px 6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center;border-right:2px dashed rgba(20,16,9,.5)}
+  .ds-n{font-family:'Michroma',sans-serif;font-size:8px;letter-spacing:.1em;color:#8a7d63}
+  .ds-big{font-family:'Unbounded',sans-serif;font-weight:800;font-size:38px;line-height:.82}
+  .dpunch{position:absolute;width:16px;height:8px;background:#ece4d1;z-index:4;left:84px}
+  .dpunch.t{top:-2px;border-radius:0 0 9px 9px;border:1.7px solid #141009;border-top:0}
+  .dpunch.b{bottom:-2px;border-radius:9px 9px 0 0;border:1.7px solid #141009;border-bottom:0}
+  .dbody{flex:1;min-width:0;padding:14px 18px 14px 20px;display:flex;flex-direction:column}
+  .dtop{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px}
+  .dcode{font-family:'Michroma',sans-serif;font-size:8px;letter-spacing:.12em;color:#8a7d63;white-space:nowrap;padding-top:4px}
+  .dstamp{font-family:'Michroma',sans-serif;font-size:7.5px;letter-spacing:.05em;text-transform:uppercase;color:#bb3320;border:2px solid #bb3320;border-radius:2px;padding:3px 7px;transform:rotate(-7deg);white-space:nowrap;filter:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cfilter%20id%3D%27g%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.11%27%20numOctaves%3D%272%27%20seed%3D%277%27%20result%3D%27n%27/%3E%3CfeDisplacementMap%20in%3D%27SourceGraphic%27%20in2%3D%27n%27%20scale%3D%272.3%27%20xChannelSelector%3D%27R%27%20yChannelSelector%3D%27G%27/%3E%3C/filter%3E%3C/svg%3E#g")}
+  .dttl{font-family:'Unbounded',sans-serif;font-weight:800;font-size:19px;line-height:1.06;margin:3px 0 7px;color:#100c05}
+  .ddesc{font-size:12.5px;line-height:1.55;color:#39321f;margin:0 0 11px}
+  .dtags{font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.03em;text-transform:uppercase;color:#6a6048;margin-top:auto}
+  .dcard code{font-family:'Martian Mono',monospace;font-size:.9em}
+  @media(max-width:820px){.dgrid{grid-template-columns:1fr}.dcard{transform:none!important}.dttl{font-size:18px}}
+  [style*="Space Mono"]{font-family:'Michroma',sans-serif !important}
+  @media(max-width:720px){.dgrid{grid-template-columns:1fr}#dossier-spec{margin-left:20px;margin-right:20px}}
+</style>
 <style>x-dc{display:none!important}</style>
 <style></style>
 <style>html,body{height:100%;margin:0}#dc-root,#dc-root>.sc-host{height:100%}</style>
@@ -38,25 +71,13 @@
   <div style="position: fixed; inset: 0px; pointer-events: none; z-index: 0; opacity: 0.5; mix-blend-mode: multiply; background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%22160%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.82%22%20numOctaves%3D%222%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22%20opacity%3D%220.5%22/%3E%3C/svg%3E&quot;); background-size: 165px 165px;"></div>
 
   <div style="position: relative; z-index: 2;">
-  
-  <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; font-family: &quot;Space Mono&quot;, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 2px solid rgb(23, 19, 12);">
-    <a href="#top" style="display: flex; align-items: center; gap: 10px; color: rgb(23, 19, 12); text-decoration: none; font-weight: 700;">
-      <span style="width: 13px; height: 13px; border: 2px solid rgb(23, 19, 12); border-radius: 50%; position: relative; display: inline-block;"><span style="position: absolute; inset: 2.5px; border-radius: 50%; background: rgb(14, 143, 131);"></span></span>
-      A. JAYAPPA · MISSION 2027
-    </a>
-    <nav style="display: flex; gap: 22px; align-items: center;">
-      <a href="#work" class="scp0" style="color: rgb(90, 81, 64); text-decoration: none;">Work</a>
-      <a href="#about" class="scp0" style="color: rgb(90, 81, 64); text-decoration: none;">About</a>
-      <a href="#contact" style="color: rgb(244, 239, 225); background: rgb(14, 143, 131); text-decoration: none; padding: 8px 16px;">Contact →</a>
-    </nav>
-  </header>
 
   
   <section id="top" style="text-align: center; padding: 34px 40px 6px;">
-    <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: rgb(14, 143, 131); margin-bottom: 12px;">✦ Portfolio · Los Angeles · 34.02°N ✦</div>
-    <h1 style="font-family: Unbounded, sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(52px, 11vw, 168px); line-height: 0.86; letter-spacing: -0.02em; margin: 0px; color: rgb(23, 19, 12);">Atharva<br><span style="color: rgb(14, 143, 131);">Jayappa</span></h1>
+    <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(14, 143, 131); margin-bottom: 12px;">✦ Portfolio · Los Angeles · 34.02°N ✦</div>
+    <h1 style="font-family: Unbounded, sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(50px, 10vw, 150px); line-height: 0.86; letter-spacing: -0.02em; margin: 0px; color: rgb(23, 19, 12);">Atharva<br><span style="color: rgb(14, 143, 131);">Jayappa</span></h1>
     <p style="font-family: &quot;Space Mono&quot;, monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(90, 81, 64); margin: 16px 0px 0px;">ML / AI Engineer · Researcher · USC</p>
-    <p style="font-size: 22px; line-height: 1.5; color: rgb(55, 48, 31); max-width: 47ch; margin: 14px auto 0px;">I build Agentic LLM systems and research inference efficiency, making large language models <em style="font-style: italic;">faster, cheaper, and easier to trust.</em> Recently, I shipped BlastScope, an MCP server that gauges the blast radius of risky shell commands.</p>
+    <p style="font-size: 22px; line-height: 1.5; color: rgb(55, 48, 31); max-width: 47ch; margin: 14px auto 0px;">I build Agentic LLM systems & guardrails and research inference efficiency, making large language models faster, cheaper, and easier to trust.</p>
   </section>
 
   
@@ -81,11 +102,12 @@
   </section>
 
   
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); border-top: 2px solid rgb(23, 19, 12); border-bottom: 2px solid rgb(23, 19, 12); font-family: &quot;Space Mono&quot;, monospace;">
-    <div style="padding: 18px 24px; border-right: 2px solid rgb(23, 19, 12); font-size: 12px;"><div style="color: rgb(138, 125, 99); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; margin-bottom: 6px;">Status</div><span style="display: inline-flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; border-radius: 50%; background: rgb(14, 143, 131); display: inline-block;"></span>Open · Summer '27</span></div>
-    <div style="padding: 18px 24px; border-right: 2px solid rgb(23, 19, 12); font-size: 12px;"><div style="color: rgb(138, 125, 99); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; margin-bottom: 6px;">Base</div>Los Angeles · USC</div>
-    <div style="padding: 18px 24px; border-right: 2px solid rgb(23, 19, 12); font-size: 12px;"><div style="color: rgb(138, 125, 99); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; margin-bottom: 6px;">Focus</div>inference · agents · retrieval</div>
-    <div style="padding: 18px 24px; font-size: 12px;"><div style="color: rgb(138, 125, 99); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; margin-bottom: 6px;">Stack</div>PyTorch · HF · Neo4j · MCP</div>
+  <div id="dossier-spec">
+    <div class="ds-holes"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="ds-row"><span class="ds-k">Status</span><span class="ds-dot"></span><span class="ds-v on">● Open · Summer '27</span></div>
+    <div class="ds-row"><span class="ds-k">Base</span><span class="ds-dot"></span><span class="ds-v">Los Angeles · USC</span></div>
+    <div class="ds-row"><span class="ds-k">Focus</span><span class="ds-dot"></span><span class="ds-v">Inference · Agents · Retrieval</span></div>
+    <div class="ds-row"><span class="ds-k">Stack</span><span class="ds-dot"></span><span class="ds-v">PyTorch · HF · Neo4j · MCP</span></div>
   </div>
 
   <div style="max-width: 1200px; margin: 0px auto; padding: 0px 40px;">
@@ -95,35 +117,11 @@
       <h2 style="font-family: Unbounded, sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(26px, 4.4vw, 50px); letter-spacing: -0.01em; line-height: 1; margin: 0px;">Selected Work</h2>
       <span style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); margin-left: auto; letter-spacing: 0.08em;">04 · research + engineering</span>
     </div>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px;">
-
-      <a href="#" class="scp1" style="display: block; text-decoration: none; color: rgb(23, 19, 12); background: rgb(244, 239, 225); border: 2px solid rgb(23, 19, 12); padding: 28px; box-shadow: rgb(23, 19, 12) 6px 6px 0px; transition: transform 0.13s, box-shadow 0.13s;">
-        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(138, 125, 99);"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; color: rgb(14, 143, 131); letter-spacing: 0px;">01</span><span>2025 · under review</span></div>
-        <h3 style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.12; letter-spacing: -0.01em; margin: 0px 0px 12px;">Syntax-Aware Speculative Decoding</h3>
-        <p style="font-size: 14.5px; color: rgb(90, 81, 64); line-height: 1.6; margin: 0px 0px 16px;">Training-free framework that audits and suppresses unprofitable draft halts — +8.9% tokens/sec and 87% fewer halts on HumanEval-X C++.</p>
-        <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); letter-spacing: 0.04em;">PyTorch · Tree-sitter · HuggingFace</div>
-      </a>
-
-      <a href="#" class="scp2" style="display: block; text-decoration: none; color: rgb(23, 19, 12); background: rgb(244, 239, 225); border: 2px solid rgb(23, 19, 12); padding: 28px; box-shadow: rgb(23, 19, 12) 6px 6px 0px; transition: transform 0.13s, box-shadow 0.13s;">
-        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(138, 125, 99);"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; color: rgb(207, 154, 44); letter-spacing: 0px;">02</span><span>2025</span></div>
-        <h3 style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.12; letter-spacing: -0.01em; margin: 0px 0px 12px;">Hybrid Graph-RAG Retrieval</h3>
-        <p style="font-size: 14.5px; color: rgb(90, 81, 64); line-height: 1.6; margin: 0px 0px 16px;">Conversational nutrition planner fusing symbolic Cypher traversal over a Neo4j graph with GraphSAGE embeddings for allergen-aware suggestions.</p>
-        <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); letter-spacing: 0.04em;">Neo4j · Cypher · GraphSAGE</div>
-      </a>
-
-      <a href="https://github.com/Atharva-Jayappa/blast-scope" target="_blank" rel="noopener" class="scp2" style="display: block; text-decoration: none; color: rgb(23, 19, 12); background: rgb(244, 239, 225); border: 2px solid rgb(23, 19, 12); padding: 28px; box-shadow: rgb(23, 19, 12) 6px 6px 0px; transition: transform 0.13s, box-shadow 0.13s;">
-        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(138, 125, 99);"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; color: rgb(207, 154, 44); letter-spacing: 0px;">03</span><span>MCP · PyPI</span></div>
-        <h3 style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.12; letter-spacing: -0.01em; margin: 0px 0px 12px;">BlastScope</h3>
-        <p style="font-size: 14.5px; color: rgb(90, 81, 64); line-height: 1.6; margin: 0px 0px 16px;">An MCP server that scores the real blast radius of a destructive shell command before it runs — probing files, Git, Docker and SQL directly instead of relying on blocklists. Published on the official MCP registry and PyPI; install with <code>uvx blast-scope</code>.</p>
-        <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); letter-spacing: 0.04em;">Python · MCP · uvx</div>
-      </a>
-
-      <a href="#" class="scp1" style="display: block; text-decoration: none; color: rgb(23, 19, 12); background: rgb(244, 239, 225); border: 2px solid rgb(23, 19, 12); padding: 28px; box-shadow: rgb(23, 19, 12) 6px 6px 0px; transition: transform 0.13s, box-shadow 0.13s;">
-        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(138, 125, 99);"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; color: rgb(14, 143, 131); letter-spacing: 0px;">04</span><span>2024 · NewronAI</span></div>
-        <h3 style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.12; letter-spacing: -0.01em; margin: 0px 0px 12px;">Agentic Document Intelligence</h3>
-        <p style="font-size: 14.5px; color: rgb(90, 81, 64); line-height: 1.6; margin: 0px 0px 16px;">Multi-agent classification, summarization and custom-NER pipeline on GCP powering an LLM knowledge base for large-scale document analysis.</p>
-        <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; color: rgb(138, 125, 99); letter-spacing: 0.04em;">FastAPI · Vertex AI · GCP</div>
-      </a>
+    <div class="dgrid">
+      <a href="#" class="dcard" style="--r:-1.5deg"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#0e8f83">01</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-01 ]</span><span class="dstamp">2025 · Under review</span></div><h3 class="dttl">Syntax-Aware Speculative Decoding</h3><p class="ddesc">Training-free framework that audits and suppresses unprofitable draft halts — +8.9% tokens/sec and 87% fewer halts on HumanEval-X C++.</p><div class="dtags">PyTorch · Tree-sitter · HuggingFace</div></div></a>
+      <a href="#" class="dcard" style="--r:1.2deg;--y:9px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#cf9a2c">02</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-02 ]</span><span class="dstamp">2025</span></div><h3 class="dttl">Hybrid Graph-RAG Retrieval</h3><p class="ddesc">Conversational nutrition planner fusing symbolic Cypher traversal over a Neo4j graph with GraphSAGE embeddings for allergen-aware suggestions.</p><div class="dtags">Neo4j · Cypher · GraphSAGE</div></div></a>
+      <a href="https://github.com/Atharva-Jayappa/blast-scope" target="_blank" rel="noopener" class="dcard" style="--r:-0.9deg;--y:-4px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#cf9a2c">03</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-03 ]</span><span class="dstamp">MCP · PyPI</span></div><h3 class="dttl">BlastScope</h3><p class="ddesc">An MCP server that scores the real blast radius of a destructive shell command before it runs — probing files, Git, Docker and SQL directly instead of relying on blocklists. Published on the official MCP registry and PyPI; install with <code>uvx blast-scope</code>.</p><div class="dtags">Python · MCP · uvx</div></div></a>
+      <a href="#" class="dcard" style="--r:1.4deg;--y:7px"><div class="dstub"><div class="ds-n">Nº</div><div class="ds-big" style="color:#0e8f83">04</div></div><span class="dpunch t"></span><span class="dpunch b"></span><div class="dbody"><div class="dtop"><span class="dcode">[ AJ-04 ]</span><span class="dstamp">2024 · NewronAI</span></div><h3 class="dttl">Agentic Document Intelligence</h3><p class="ddesc">Multi-agent classification, summarization and custom-NER pipeline on GCP powering an LLM knowledge base for large-scale document analysis.</p><div class="dtags">FastAPI · Vertex AI · GCP</div></div></a>
     </div>
   </section>
 
@@ -131,7 +129,7 @@
   <section id="about" style="padding: 74px 0px; text-align: center; border-top: 2px solid rgb(23, 19, 12); margin-top: 30px;">
     <div style="font-family: &quot;Space Mono&quot;, monospace; font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: rgb(14, 143, 131); margin-bottom: 22px;">About the Engineer</div>
     <p style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: clamp(24px, 3.6vw, 44px); line-height: 1.18; letter-spacing: -0.01em; margin: 0px auto; max-width: 22ch;">Working where research meets shipping.</p>
-    <p style="font-size: 16.5px; line-height: 1.78; color: rgb(70, 60, 40); max-width: 64ch; margin: 24px auto 0px;">Currently an MS Computer Science student at USC. Previously a software engineer at NewronAI, where I built agentic document-intelligence systems, and before that an ML intern at Provatosoft training diagnostic models. I care about the measurable parts of making language models useful — latency, retrieval quality, and trust. Outside the terminal, I play chess and swim.</p>
+    <p style="font-size: 16.5px; line-height: 1.78; color: rgb(70, 60, 40); max-width: 64ch; margin: 24px auto 0px;">Currently an MS Computer Science student at USC. Previously a SDE Intern at NewronAI, where I built agentic document-intelligence systems, and before that an ML intern at Provatosoft training diagnostic models. I care about the measurable parts of making language models useful — latency, retrieval quality, and trust. Outside the terminal, I play chess and swim.</p>
   </section>
 
   
